@@ -1,10 +1,10 @@
 {
-    "key": "group_618ebc386e78f",
-    "title": "Testimonials Content",
+    "key": "group_610ab031cf3cf",
+    "title": "Regular Page Content",
     "fields": [
         {
-            "key": "field_618ebc3ec84fb",
-            "label": "Content",
+            "key": "field_610ab04d89cbc",
+            "label": "Header",
             "name": "",
             "type": "tab",
             "instructions": "",
@@ -19,9 +19,44 @@
             "endpoint": 0
         },
         {
-            "key": "field_618ebc47c84fc",
-            "label": "Review",
-            "name": "review_test",
+            "key": "field_610ab05389cbd",
+            "label": "Custom Title",
+            "name": "custom_title_regular_header",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_610ab3ff301cb",
+            "label": "Content",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_610ab404301cc",
+            "label": "Content Block",
+            "name": "content_block_regular",
             "type": "wysiwyg",
             "instructions": "",
             "required": 0,
@@ -38,52 +73,15 @@
             "delay": 0
         },
         {
-            "key": "field_618ebc53bc06f",
-            "label": "Intro",
-            "name": "",
-            "type": "tab",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "placement": "top",
-            "endpoint": 0
-        },
-        {
-            "key": "field_618ebc58bc070",
-            "label": "Link to case studiy",
-            "name": "link_to_case_studiy",
-            "type": "page_link",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "post_type": [
-                "casestudies"
-            ],
-            "taxonomy": "",
-            "allow_null": 0,
-            "allow_archives": 0,
-            "multiple": 0
-        },
-        {
-            "key": "field_618ebc61bc071",
-            "label": "Title and Position",
-            "name": "title_and_position_test",
+            "key": "field_610ab531602fa",
+            "label": "Button Label",
+            "name": "button_label_regular",
             "type": "text",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-                "width": "",
+                "width": "50",
                 "class": "",
                 "id": ""
             },
@@ -92,14 +90,45 @@
             "prepend": "",
             "append": "",
             "maxlength": ""
+        },
+        {
+            "key": "field_610ab537602fb",
+            "label": "Button Link",
+            "name": "button_link_regu",
+            "type": "page_link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "page"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "allow_archives": 0,
+            "multiple": 0
         }
     ],
     "location": [
         [
             {
-                "param": "post_type",
+                "param": "page_template",
                 "operator": "==",
-                "value": "testimonials"
+                "value": "default"
+            },
+            {
+                "param": "page_type",
+                "operator": "!=",
+                "value": "front_page"
+            },
+            {
+                "param": "page_type",
+                "operator": "!=",
+                "value": "posts_page"
             }
         ]
     ],
@@ -111,6 +140,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "show_in_rest": false,
-    "modified": 1638993951
+    "modified": 1628091715
 }

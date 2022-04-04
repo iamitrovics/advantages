@@ -1,10 +1,10 @@
 {
-    "key": "group_619dea6e553e8",
-    "title": "Starboard Yacht",
+    "key": "group_622b0a842c69e",
+    "title": "4iT Case Study Content",
     "fields": [
         {
-            "key": "field_619deacfc9ca6",
-            "label": "Video",
+            "key": "field_622b0a9b3c8b0",
+            "label": "Intro",
             "name": "",
             "type": "tab",
             "instructions": "",
@@ -19,87 +19,9 @@
             "endpoint": 0
         },
         {
-            "key": "field_619dead6c9ca7",
-            "label": "Video Screenshot",
-            "name": "video_screenshot_std",
-            "type": "image",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "return_format": "id",
-            "preview_size": "medium",
-            "library": "all",
-            "min_width": "",
-            "min_height": "",
-            "min_size": "",
-            "max_width": "",
-            "max_height": "",
-            "max_size": "",
-            "mime_types": ""
-        },
-        {
-            "key": "field_619deaeb1e158",
-            "label": "Video URL",
-            "name": "video_url_std",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
-        },
-        {
-            "key": "field_619deafe406a6",
-            "label": "Video Caption",
-            "name": "video_caption_std",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
-        },
-        {
-            "key": "field_619debc9b2e03",
-            "label": "About",
-            "name": "",
-            "type": "tab",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "placement": "top",
-            "endpoint": 0
-        },
-        {
-            "key": "field_619debcfb2e04",
+            "key": "field_622b0aa23c8b1",
             "label": "Block Title",
-            "name": "block_title_about_std",
+            "name": "block_title_forit_intro",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -116,9 +38,9 @@
             "maxlength": ""
         },
         {
-            "key": "field_619debd9b2e05",
-            "label": "Block Text",
-            "name": "block_text_about_std",
+            "key": "field_622b0ac4c4375",
+            "label": "Intro Text",
+            "name": "intro_text_forit_intro",
             "type": "wysiwyg",
             "instructions": "",
             "required": 0,
@@ -135,9 +57,243 @@
             "delay": 0
         },
         {
-            "key": "field_619debe6b2e06",
+            "key": "field_622b0ae961301",
+            "label": "Intro List",
+            "name": "intro_list_forit_intro",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "Add Item",
+            "sub_fields": [
+                {
+                    "key": "field_622b0af861302",
+                    "label": "Label",
+                    "name": "label",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                }
+            ]
+        },
+        {
+            "key": "field_622b1218151b3",
+            "label": "Challenge",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_622b1239151b4",
+            "label": "Block Title",
+            "name": "block_title_cha_forit_cha",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_622b12587f9cd",
+            "label": "Content Block",
+            "name": "content_block_cha_intro",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 0,
+            "delay": 0
+        },
+        {
+            "key": "field_622b1293a94d5",
+            "label": "Image 1",
+            "name": "image_1_cha",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_622b129fa94d6",
+            "label": "Image 1 Caption",
+            "name": "image_1_caption_cha",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_622b12a5a94d7",
+            "label": "Image 2",
+            "name": "image_2_cha",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_622b12aea94d8",
+            "label": "Image 2 Caption",
+            "name": "image_2_caption_cha",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_622b15f66f4b8",
+            "label": "Build",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_622b16016f4b9",
+            "label": "Block TItle",
+            "name": "block_title_build_it",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_622b161cd7d6a",
+            "label": "Content Block",
+            "name": "content_block_it_build",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 0,
+            "delay": 0
+        },
+        {
+            "key": "field_622b163f5eb33",
             "label": "Button Label",
-            "name": "button_label_about_std",
+            "name": "button_label_it_build",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -154,9 +310,9 @@
             "maxlength": ""
         },
         {
-            "key": "field_619debeeb2e07",
+            "key": "field_622b16570effa",
             "label": "Button Link",
-            "name": "button_link_about_std",
+            "name": "button_link_build_it",
             "type": "page_link",
             "instructions": "",
             "required": 0,
@@ -173,9 +329,9 @@
             "multiple": 0
         },
         {
-            "key": "field_619debfdb2e08",
-            "label": "Featured Image",
-            "name": "featured_image_about_std",
+            "key": "field_622b174ff45e0",
+            "label": "Image 1",
+            "name": "image_1_it_build",
             "type": "image",
             "instructions": "",
             "required": 0,
@@ -197,10 +353,10 @@
             "mime_types": ""
         },
         {
-            "key": "field_619def2abf922",
-            "label": "Results",
-            "name": "",
-            "type": "tab",
+            "key": "field_622b175af45e1",
+            "label": "Caption 1",
+            "name": "caption_1_it_build",
+            "type": "text",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -209,13 +365,16 @@
                 "class": "",
                 "id": ""
             },
-            "placement": "top",
-            "endpoint": 0
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
         },
         {
-            "key": "field_619def36bf923",
-            "label": "Featured Image",
-            "name": "featured_image_results_std",
+            "key": "field_622b186bcf022",
+            "label": "Image 2",
+            "name": "image_2_it_build",
             "type": "image",
             "instructions": "",
             "required": 0,
@@ -237,9 +396,9 @@
             "mime_types": ""
         },
         {
-            "key": "field_619def41bf924",
-            "label": "Image Caption",
-            "name": "image_caption_results_std",
+            "key": "field_622b187f2bf2e",
+            "label": "Caption 2",
+            "name": "caption_2_build_it",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -256,9 +415,57 @@
             "maxlength": ""
         },
         {
-            "key": "field_619def4abf925",
-            "label": "Block Title",
-            "name": "block_title_results_std",
+            "key": "field_622b18ae68ca6",
+            "label": "Image 3",
+            "name": "image_3_build_it",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_622b195c19de7",
+            "label": "Image 4",
+            "name": "image_4_build_it",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_622b19773cb0c",
+            "label": "Caption 4",
+            "name": "caption_4_build_it",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -275,172 +482,7 @@
             "maxlength": ""
         },
         {
-            "key": "field_619defcac3c81",
-            "label": "Block Content",
-            "name": "block_content_results_std",
-            "type": "wysiwyg",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "tabs": "all",
-            "toolbar": "full",
-            "media_upload": 0,
-            "delay": 0
-        },
-        {
-            "key": "field_619def56bf926",
-            "label": "Awards",
-            "name": "awards_results_std",
-            "type": "repeater",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "collapsed": "",
-            "min": 0,
-            "max": 0,
-            "layout": "table",
-            "button_label": "Add Award",
-            "sub_fields": [
-                {
-                    "key": "field_619def62bf927",
-                    "label": "Logo",
-                    "name": "logo",
-                    "type": "image",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "return_format": "url",
-                    "preview_size": "medium",
-                    "library": "all",
-                    "min_width": "",
-                    "min_height": "",
-                    "min_size": "",
-                    "max_width": "",
-                    "max_height": "",
-                    "max_size": "",
-                    "mime_types": ""
-                }
-            ]
-        },
-        {
-            "key": "field_619df56cb0369",
-            "label": "Portfolio",
-            "name": "",
-            "type": "tab",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "placement": "top",
-            "endpoint": 0
-        },
-        {
-            "key": "field_619df575b036a",
-            "label": "Our Work",
-            "name": "our_work_std",
-            "type": "repeater",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "collapsed": "",
-            "min": 0,
-            "max": 0,
-            "layout": "block",
-            "button_label": "Add Block",
-            "sub_fields": [
-                {
-                    "key": "field_619df580b036b",
-                    "label": "Block Title",
-                    "name": "block_title",
-                    "type": "text",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
-                },
-                {
-                    "key": "field_619df584b036c",
-                    "label": "Screenshots",
-                    "name": "screenshots",
-                    "type": "repeater",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "collapsed": "",
-                    "min": 0,
-                    "max": 0,
-                    "layout": "table",
-                    "button_label": "Add Screenshot",
-                    "sub_fields": [
-                        {
-                            "key": "field_619df590b036d",
-                            "label": "Image",
-                            "name": "image",
-                            "type": "image",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "return_format": "url",
-                            "preview_size": "medium",
-                            "library": "all",
-                            "min_width": "",
-                            "min_height": "",
-                            "min_size": "",
-                            "max_width": "",
-                            "max_height": "",
-                            "max_size": "",
-                            "mime_types": ""
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "key": "field_619dfa7815222",
+            "key": "field_622b1a1015710",
             "label": "Testimonial",
             "name": "",
             "type": "tab",
@@ -456,9 +498,9 @@
             "endpoint": 0
         },
         {
-            "key": "field_619dfa9720f25",
+            "key": "field_622b1a1615711",
             "label": "Block Title",
-            "name": "block_title_test_std",
+            "name": "block_title_test_it",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -475,9 +517,9 @@
             "maxlength": ""
         },
         {
-            "key": "field_619dfa7e15223",
-            "label": "Testimonial Text",
-            "name": "testimonial_text_std",
+            "key": "field_622b1a3dbaeaf",
+            "label": "Review Text",
+            "name": "review_text_test_it",
             "type": "wysiwyg",
             "instructions": "",
             "required": 0,
@@ -494,9 +536,9 @@
             "delay": 0
         },
         {
-            "key": "field_619dfa8715224",
-            "label": "Testimonial Author",
-            "name": "testimonial_author_std",
+            "key": "field_622b1a58f9fd5",
+            "label": "Author",
+            "name": "author_review_test_it",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -518,7 +560,7 @@
             {
                 "param": "post_template",
                 "operator": "==",
-                "value": "yacht-casestudies.php"
+                "value": "4it-casestudies.php"
             }
         ]
     ],
@@ -530,6 +572,6 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "show_in_rest": false,
-    "modified": 1639725738
+    "show_in_rest": 0,
+    "modified": 1646991968
 }

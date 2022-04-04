@@ -153,7 +153,39 @@ get_header();
             </div>
             <!-- // contaiener  -->
         </div>
-        <!-- // case values  -->      
+        <!-- // case values  --> 
+        
+        <div class="case-performance">
+
+            <img src="<?php bloginfo('template_directory'); ?>/img/bg/seasons-shape-left.png" alt="" class="img-shape-right">
+        
+            <div class="container">                
+
+                <div class="case-text">
+                    <h2><?php the_field('block_title_performance_aventus'); ?></h2>
+                    <p><?php the_field('block_subtitle_performance_aventus'); ?></p>                    
+                </div>
+                <!-- // text  -->
+
+                <div class="stats">
+                    <div class="stat-one stat">
+                    <img src="<?php bloginfo('template_directory'); ?>/img/misc/stat-1.png" alt="" class="stat-img">
+                    <h4><?php the_field('statistics_1'); ?></h4>
+                    </div>
+                    <div class="stat-two stat">
+                    <img src="<?php bloginfo('template_directory'); ?>/img/misc/stat-2.png" alt="" class="stat-img">
+                    <h4><?php the_field('statistics_2'); ?></h4>
+                    </div>
+                    <div class="stat-two stat">
+                    <img src="<?php bloginfo('template_directory'); ?>/img/misc/stat-3.png" alt="" class="stat-img">
+                    <h4><?php the_field('statistics_3'); ?></h4>
+                    </div>
+                </div>
+
+            </div>
+            <!-- // contaiener  -->
+        </div>
+        <!-- // case performance  -->
         
         <div class="case-portfoliox">
             <div class="container">
@@ -195,6 +227,27 @@ get_header();
             <a href="<?php bloginfo('url'); ?>/case-stories" class="btn-more">Back to Case Stories <span class="icon-Polygon-44"></span></a>
             <a href="#top-page" class="btn-more btn-up">Back to top <span class="icon-Polygon-44-uper"></span></a>
         </footer>
+
+        <section class="case-notices">
+            <div class="container">
+                <div class="notice notice-one">
+                    <p class="">
+                        <?php the_field('explanation_1'); ?>
+                    </p>
+                    <p class="">
+                        <?php the_field('explanation_2'); ?>
+                    </p>
+                </div>
+                <div class="notice notice-two">
+                    <p class="">
+                        <?php the_field('explanation_3'); ?>
+                    </p>
+                    <p class="">
+                        <?php the_field('explanation_4'); ?>
+                    </p>
+                </div>
+            </div>
+        </section>
 
     </section>
     <!-- // case single  -->

@@ -1,9 +1,9 @@
 {
-    "key": "group_618ebc386e78f",
-    "title": "Testimonials Content",
+    "key": "group_610aaf0907fec",
+    "title": "Thank You Content",
     "fields": [
         {
-            "key": "field_618ebc3ec84fb",
+            "key": "field_610aaf13f6de3",
             "label": "Content",
             "name": "",
             "type": "tab",
@@ -19,65 +19,9 @@
             "endpoint": 0
         },
         {
-            "key": "field_618ebc47c84fc",
-            "label": "Review",
-            "name": "review_test",
-            "type": "wysiwyg",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "tabs": "all",
-            "toolbar": "full",
-            "media_upload": 0,
-            "delay": 0
-        },
-        {
-            "key": "field_618ebc53bc06f",
-            "label": "Intro",
-            "name": "",
-            "type": "tab",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "placement": "top",
-            "endpoint": 0
-        },
-        {
-            "key": "field_618ebc58bc070",
-            "label": "Link to case studiy",
-            "name": "link_to_case_studiy",
-            "type": "page_link",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "post_type": [
-                "casestudies"
-            ],
-            "taxonomy": "",
-            "allow_null": 0,
-            "allow_archives": 0,
-            "multiple": 0
-        },
-        {
-            "key": "field_618ebc61bc071",
-            "label": "Title and Position",
-            "name": "title_and_position_test",
+            "key": "field_610aaf19f6de4",
+            "label": "Main Title",
+            "name": "main_title_tnx",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -92,14 +36,52 @@
             "prepend": "",
             "append": "",
             "maxlength": ""
+        },
+        {
+            "key": "field_610aaf29ab5b0",
+            "label": "Button Label",
+            "name": "button_label_tnx",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_610aaf30ab5b1",
+            "label": "Button Link",
+            "name": "button_link_tnx",
+            "type": "page_link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "post_type": "",
+            "taxonomy": "",
+            "allow_null": 0,
+            "allow_archives": 0,
+            "multiple": 0
         }
     ],
     "location": [
         [
             {
-                "param": "post_type",
+                "param": "page_template",
                 "operator": "==",
-                "value": "testimonials"
+                "value": "page-templates\/thanks-template.php"
             }
         ]
     ],
@@ -111,6 +93,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "show_in_rest": false,
-    "modified": 1638993951
+    "modified": 1628090169
 }

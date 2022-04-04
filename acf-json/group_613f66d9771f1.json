@@ -1,10 +1,10 @@
 {
-    "key": "group_618ebc386e78f",
-    "title": "Testimonials Content",
+    "key": "group_613f66d9771f1",
+    "title": "Open Contact Content",
     "fields": [
         {
-            "key": "field_618ebc3ec84fb",
-            "label": "Content",
+            "key": "field_613f66e452fe4",
+            "label": "Intro",
             "name": "",
             "type": "tab",
             "instructions": "",
@@ -19,9 +19,28 @@
             "endpoint": 0
         },
         {
-            "key": "field_618ebc47c84fc",
-            "label": "Review",
-            "name": "review_test",
+            "key": "field_613f66ed52fe5",
+            "label": "Block Title",
+            "name": "block_title_open_contact",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_613f66f352fe6",
+            "label": "Intro Text",
+            "name": "intro_text_open_contact",
             "type": "wysiwyg",
             "instructions": "",
             "required": 0,
@@ -38,8 +57,8 @@
             "delay": 0
         },
         {
-            "key": "field_618ebc53bc06f",
-            "label": "Intro",
+            "key": "field_613f6813a7bd5",
+            "label": "Form",
             "name": "",
             "type": "tab",
             "instructions": "",
@@ -54,31 +73,10 @@
             "endpoint": 0
         },
         {
-            "key": "field_618ebc58bc070",
-            "label": "Link to case studiy",
-            "name": "link_to_case_studiy",
-            "type": "page_link",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "post_type": [
-                "casestudies"
-            ],
-            "taxonomy": "",
-            "allow_null": 0,
-            "allow_archives": 0,
-            "multiple": 0
-        },
-        {
-            "key": "field_618ebc61bc071",
-            "label": "Title and Position",
-            "name": "title_and_position_test",
-            "type": "text",
+            "key": "field_613f6818a7bd6",
+            "label": "Form Code",
+            "name": "form_code_open_contact",
+            "type": "textarea",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -89,17 +87,17 @@
             },
             "default_value": "",
             "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
         }
     ],
     "location": [
         [
             {
-                "param": "post_type",
+                "param": "page_template",
                 "operator": "==",
-                "value": "testimonials"
+                "value": "page-templates\/opencontact-template.php"
             }
         ]
     ],
@@ -111,6 +109,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "show_in_rest": false,
-    "modified": 1638993951
+    "modified": 1631545378
 }

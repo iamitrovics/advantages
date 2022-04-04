@@ -465,7 +465,7 @@
             "multiple": 0
         },
         {
-            "key": "field_618ebc92cb410",
+            "key": "field_61b10f79d5766",
             "label": "Testimonials",
             "name": "",
             "type": "tab",
@@ -481,7 +481,7 @@
             "endpoint": 0
         },
         {
-            "key": "field_618ebc99cb411",
+            "key": "field_61b10f84d5767",
             "label": "Section TItle",
             "name": "section_title_test_home",
             "type": "medium_editor",
@@ -510,7 +510,7 @@
             "delay": 0
         },
         {
-            "key": "field_618ebca3cb412",
+            "key": "field_61b10f93d5768",
             "label": "Reviews List",
             "name": "reviews_list_home",
             "type": "post_object",
@@ -1096,5 +1096,6 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1636745266
+    "show_in_rest": 0,
+    "modified": 1638994032
 }

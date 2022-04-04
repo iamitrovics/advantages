@@ -2809,3 +2809,283 @@
         }
     }
 }
+
+.it-case {
+    .it-intro {
+        margin-bottom: 100px;
+        @include breakpoint(mobile-all) {
+            margin-bottom: 50px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            @include breakpoint(mobile-all) {
+                display: block;
+            }
+            .it-intro--left {
+                width: 500px;
+                @include breakpoint(laptop) {
+                    width: 450px;
+                }
+                @include breakpoint(tablet) {
+                    width: 400px;
+                }
+                @include breakpoint(mobile-all) {
+                    display: block;
+                    width: 100%;
+                    margin-bottom: 40px;
+                }
+                h2 {
+                    font-size: 30px;
+                    line-height: 38px;
+                    margin-bottom: 16px;
+                    padding-right: 50px;
+                    @include breakpoint(tablet) {
+                        font-size: 26px;
+                    }
+                    @include breakpoint(mobile-all) {
+                        font-size: 26px;
+                    }
+                }
+                p {
+
+                }
+            }
+            .it-intro--right {
+                width: 420px;
+                @include breakpoint(tablet) {
+                    width: 350px;
+                }
+                @include breakpoint(mobile-all) {
+                    width: 100%;
+                }
+                ul {
+                    li {
+                        font-size: 16px;
+                        margin-bottom: 15px;
+                        position: relative;
+                        padding-left: 33px;
+                        padding-top: 15px;
+                        line-height: 20px;
+                        font-family: $font-black;
+                        position: relative;
+                        &:first-child {
+                            &:before {
+                                content:url('../img/misc/blue-shape.svg');
+                                position: absolute;
+                                left:0px;
+                                top:13px;
+                                z-index:-1;
+                            }
+                        }
+                        &:nth-child(2) {
+                            &:before {
+                                content:url('../img/misc/orange-shape.svg');
+                                position: absolute;
+                                left:0px;
+                                top:-1px;
+                                z-index:-1;
+                            }                            
+                        }
+                        &:nth-child(3) {
+                            &:before {
+                                content:url('../img/misc/red-shape.svg');
+                                position: absolute;
+                                left:13px;
+                                top:3px;
+                                z-index:-1;                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // challange
+    .it-challange {
+        .container {
+            display: flex;
+            justify-content: space-between;
+            @include breakpoint(mobile-all) {
+                display: block;
+            }
+            .challange-text {
+                width: 600px;
+                @include breakpoint(laptop) {
+                    width: 450px;
+                }
+                @include breakpoint(tablet) {
+                    width: 45%;
+                }
+                @include breakpoint(mobile-all) {
+                    width: 100%;
+                }
+                h2 {
+                    font-size: 30px;
+                    line-height: 38px;
+                    margin-bottom: 16px;
+                    padding-right: 50px;
+                    @include breakpoint(tablet) {
+                        font-size: 26px;
+                    }
+                    @include breakpoint(mobile-all) {
+                        font-size: 26px;
+                    }                    
+                }
+                ul {
+                    margin-top: 20px;
+                    li {
+                        display: block;
+                        font-size: 16px;
+                        line-height: 20px;
+                        font-family: $font-black;
+                        padding-left: 55px;
+                        position: relative;
+                        margin-bottom: 16px;
+                        color:#333;
+                        &:before {
+                            content:'';
+                            display: block;
+                            width: 8px;
+                            height: 8px;
+                            background:#333;
+                            border-radius: 100%;
+                            position: absolute;
+                            left:20px;
+                            top:6px;
+                        }
+                    }
+                }
+            }
+            // images
+            .challange-images {
+                width: 465px;
+                @include breakpoint(tablet) {
+                    width: 55%;
+                }
+                @include breakpoint(mobile-all) {
+                    width: 100%;
+                }
+                .image-1 {
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: flex-end;
+                    .caption {
+                        @include captioner;
+                        margin-bottom: 70px;
+                    }
+                    img.imager-1 {
+                        @include breakpoint(tablet) {
+                            width: 220px;
+                        }
+                        @include breakpoint(mobile-all) {
+                            width: 200px;
+                        }
+                    }
+                }
+                .image-2 {
+                    margin-top: -60px;
+                    @include breakpoint(mobile-all) {
+                        margin-top: 0px;
+                    }
+                    .caption {
+                        @include captioner;
+                        text-align: left;
+                        padding-left: 15px;
+                        position: relative;
+                        top:-10px;
+                    }
+                }
+            }
+        }
+    }
+    // build
+    .it-build {
+        .container {
+            display: flex;
+            justify-content: space-between;
+            @include breakpoint(mobile-all) {
+                display: block;
+            }
+            .build-images {
+                width: 400px;
+                @include breakpoint(laptop) {
+                    width: 350px;
+                }
+                @include breakpoint(tablet) {
+                    width: 350px;
+                }
+                @include breakpoint(mobile-all) {
+                    width: 100%;
+                }
+                .image-1 {
+                    margin-bottom: 0px;
+                    .caption {
+                        @include captioner;
+                        text-align: left;
+                    }
+                    img {
+                        margin-left: -15px;
+                    }
+                }
+                .image-2 {
+                    .caption {
+                        @include captioner;
+                        text-align: left;
+                    }     
+                    img {
+                        margin-left: -15px;
+                    }                                   
+                }
+                .image-3 {
+                    img {
+                        margin-left: -15px;
+                    }
+                }
+            }
+            // text
+            .build-text {
+                width: 550px;
+                padding-top: 90px;
+                @include breakpoint(mobile-all) {
+                    width: 100%;
+                    padding-top: 30px;
+                }
+                h2 {
+                    font-size: 30px;
+                    line-height: 38px;
+                    margin-bottom: 16px;
+                    padding-right: 50px;
+                    @include breakpoint(tablet) {
+                        font-size: 26px;
+                    }
+                    @include breakpoint(mobile-all) {
+                        font-size: 26px;
+                    }                    
+                }
+                p {
+                    margin-bottom: 45px;
+                }
+                a.btn-cta {
+                    @include btn-cta2;
+                }
+                .image-holder {
+                    margin-top: 60px;
+                    @include breakpoint(tablet) {
+                        margin-top: 30px;
+                    }
+                    @include breakpoint(mobile-all) {
+                        margin-top: 30px;
+                    }
+                    .caption {
+                        @include captioner;
+                        text-align: left;
+                    }
+                    img {
+                        margin-left: -15px;
+                    }
+                }
+            }
+        }
+    }
+}

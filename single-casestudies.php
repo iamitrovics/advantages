@@ -156,26 +156,14 @@ get_header();
                     <div class="video-wrapper">
                         <div class="container">
                             <img src="<?php bloginfo('template_directory'); ?>/img/bg/video-left.svg" alt="" class="top-shape">
-                            <?php if( get_sub_field('section_title') ): ?>
                             <header>
                                 <h2><?php the_sub_field('section_title'); ?></h2>
                             </header>
-                            <?php endif; ?>
 
                             <div class="video-holder">
                                 <div class="embed-container">
-                                    <a href="<?php the_sub_field('video'); ?>">
-                                    <?php
-                                    $imageID = get_sub_field('video_screenshot');
-                                    $image = wp_get_attachment_image_src( $imageID, 'half-image' );
-                                    $alt_text = get_post_meta($imageID , '_wp_attachment_image_alt', true);
-                                    ?> 
-
-                                    <img class="img-responsive" alt="<?php echo $alt_text; ?>" src="<?php echo $image[0]; ?>" />     
-                                    </a>          
-                                </div>       
-                                <!-- // container -->
-                                <span class="caption"><?php the_sub_field('caption_video'); ?><img src="<?php bloginfo('template_directory'); ?>/img/ico/arrow-up.svg" alt=""></span>                      
+                                    <?php the_sub_field('video'); ?>
+                                </div>                                
                             </div>
                             <!-- // video  -->
 
@@ -203,7 +191,6 @@ get_header();
                                         ?> 
 
                                         <img class="img-responsive" alt="<?php echo $alt_text; ?>" src="<?php echo $image[0]; ?>" /> 
-                                        <span class="caption"><?php the_sub_field('image_caption'); ?><img src="<?php bloginfo('template_directory'); ?>/img/ico/arrow-up.svg" alt=""></span>
                                     </div>
                                 </div>
                                 <!-- // image  -->
